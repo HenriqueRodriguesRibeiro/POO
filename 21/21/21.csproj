@@ -55,6 +55,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -76,6 +80,234 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-0062ff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-aqua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-fuchsia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-lime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-maroon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-navy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-olive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-teal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_jack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club_queen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_jack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond_queen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_jack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_queen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joker_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joker_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_jack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade_queen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suit-club.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suit-diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suit-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suit-spade.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
