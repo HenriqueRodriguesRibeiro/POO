@@ -56,7 +56,7 @@
             this.btnCarta.Font = new System.Drawing.Font("Lucida Calligraphy", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarta.Location = new System.Drawing.Point(292, 497);
             this.btnCarta.Name = "btnCarta";
-            this.btnCarta.Size = new System.Drawing.Size(188, 58);
+            this.btnCarta.Size = new System.Drawing.Size(215, 58);
             this.btnCarta.TabIndex = 1;
             this.btnCarta.Text = "Pedir Carta";
             this.btnCarta.UseVisualStyleBackColor = true;
